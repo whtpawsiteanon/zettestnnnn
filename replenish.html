@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="replenish.css">
+    <title>Вывод</title>
+</head>
+<body>
+    <form id="withdrawal-form">
+    <h2>Вывод средств</h2>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" name="amount" min="0" required>
+    <br><br>
+    <label for="payment-method">Payment Method:</label>
+    <select id="payment-method" name="payment-method" required>
+      <option value="">Select payment method</option>
+      <option value="Alfa-bank">Alfa-bank</option>
+      <option value="sberbank">SberBank</option>
+      <option value="T-Bank">T-Bank</option>
+    </select>
+    <br><br>
+    <label for="account-number">Account Number:</label>
+    <input type="text" id="account-number" name="account-number" required>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
